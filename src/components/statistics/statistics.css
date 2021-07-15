@@ -1,0 +1,845 @@
+.stats-main-container {
+  padding: 30px 30px 54px 30px;
+}
+.course-stats-in-numbers {
+  width: 1035px;
+  display: flex;
+  align-items: center;
+}
+.courses-info-div {
+  width: 254px;
+  height: 90px;
+  background-color: brown;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+}
+.left-side-of-courses-stats--info-div p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #111111;
+  font-family: Gilroy-Bold;
+}
+.left-side-of-courses-stats--info-div span {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111111;
+  font-family: Gilroy-Medium;
+}
+.right-side-of-courses-stats--info-div {
+  margin-left: 45px;
+}
+.right-side-of-courses-stats--info-div-first {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgb(0, 106, 255, 0.12);
+}
+.right-side-of-courses-stats--info-div {
+  margin-left: 45px;
+}
+.right-side-of-courses-stats--info-div-second {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgb(155, 81, 224, 0.12);
+}
+.right-side-of-courses-stats--info-div-third {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgb(242, 153, 74, 0.12);
+  margin-left: 10px;
+}
+.right-side-of-courses-stats--info-div-fourth {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgb(39, 174, 96, 0.12);
+  margin-left: 10px;
+}
+
+.info-div {
+  margin-left: 24px;
+}
+.bigger-info-div {
+  width: 266px;
+  margin-left: 36px;
+}
+.course-teaching-auditory {
+  width: 1035px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.main-container-auditory {
+  width: 808px;
+  height: 304px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+}
+.right-sidebar-auditory {
+  width: 266px;
+  height: 304px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  margin-left: 36px;
+  padding: 28px 10px 23px 31px;
+}
+.right-sidebar-auditory p {
+  font-family: Gilroy-Medium;
+}
+.course-stats-in-diagrams {
+  width: 1035px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.courses-left-diagram {
+  width: 314px;
+  height: 304px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  padding: 20px 20px 20px 20px;
+}
+.courses-left-with-span-and-select-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.courses-left-with-span-and-select-div select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.3;
+}
+.rating-mui-div .MuiRating-root {
+  color: #006aff;
+}
+.rating-span-totally-score-title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+}
+.rating-span-totally-score {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #006aff;
+}
+.rating-mui-div {
+  margin-top: 18px;
+}
+.rating-mui-div div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.rating-mui-div-inside-span {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+}
+.courses-middle-diagram {
+  width: 458px;
+  height: 304px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  margin-left: 36px;
+  padding: 18px;
+}
+.courses-middle-diagram .recharts-wrapper {
+  padding-top: 24px;
+  -webkit-transform: translateX(-15px);
+  transform: translateX(-15px);
+}
+
+.courses-middle-diagram .recharts-area-curve {
+  stroke-width: 3px;
+}
+
+.courses-middle-diagram .recharts-default-tooltip {
+  border-radius: 18px;
+  border: none !important;
+}
+
+.courses-middle-diagram .recharts-tooltip-wrapper {
+  background: none !important;
+}
+
+.courses-middle-diagram .recharts-dot {
+  fill: #fff;
+  stroke-width: 4px;
+  stroke: #006aff;
+  /* r: 6px; */
+}
+
+.courses-middle-diagram .yAxis tspan {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.3;
+}
+
+.courses-middle-diagram .yAxis text {
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+
+.courses-middle-diagram .yAxis .recharts-cartesian-axis-line {
+  stroke: none;
+}
+
+.courses-middle-diagram .yAxis line {
+  stroke: none;
+}
+
+.courses-middle-diagram .xAxis tspan {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #111111;
+  opacity: 0.3;
+}
+
+.courses-middle-diagram .xAxis text {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.courses-middle-diagram .xAxis line {
+  stroke: none;
+}
+.courses-right-diagram {
+  width: 255px;
+  height: 304px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  margin-left: 36px;
+  padding: 20px;
+}
+.courses-right-diagram p {
+  font-family: Gilroy-Medium;
+}
+.courses-right-diagram div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indicator {
+  margin-top: -20px;
+  position: absolute;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #111111;
+}
+.course-student-locations {
+  width: 1035px;
+  margin-top: 24px;
+}
+.course-student-locations-div {
+  height: 350px;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  padding: 24px 24px 31px 24px;
+}
+.course-student-locations-div-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side-locations-div-selection {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+}
+.right-side-locations-div-selection select {
+  outline: none;
+  border: none;
+  width: 80px;
+  height: 20px;
+  background: rgba(17, 17, 17, 0.03);
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.3;
+}
+.course-location-div-countries {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+.spanation-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.spanation-div-first {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  opacity: 0.72;
+}
+.spanation-div-second {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(17, 17, 17, 0.54);
+}
+.rc-progress-line {
+  margin-top: 8px;
+}
+.course-location-div-cities {
+  margin-top: 30px;
+}
+.course-location-div-cities {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+.progress-bar-svg div svg {
+  width: 200px;
+  margin-top: -20px;
+}
+.ul-gender {
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.gender-man,
+.gender-women {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: rgba(17, 17, 17, 0.54);
+}
+.gender-man::marker {
+  color: #006aff;
+}
+.gender-women::marker {
+  color: #e6e9f2;
+}
+.courses-middle-diagram-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-child-select,
+.second-child-select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: Gilroy-Medium;
+}
+.first-child-select {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111111;
+}
+.second-child-select {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111111;
+  opacity: 0.3;
+}
+.ul-binnasa-div .li_1::marker {
+  color: #006aff;
+  font-family: Gilroy-Medium;
+}
+.ul-binnasa-div .li_2::marker {
+  color: #f2c94c;
+  font-family: Gilroy-Medium;
+}
+.ul-binnasa-div .li_3::marker {
+  color: #2d9cdb;
+  font-family: Gilroy-Medium;
+}
+.ul-binnasa-div .li_4::marker {
+  color: #6fcf97;
+  font-family: Gilroy-Medium;
+}
+.ul-binnasa-div .li_5::marker {
+  color: #f2994a;
+  font-family: Gilroy-Medium;
+}
+.ul-binnasa-div .li_6::marker {
+  color: #d9d9d9;
+  font-family: Gilroy-Medium;
+}
+.ul-binnasa-div li::marker {
+  font-size: 20px;
+}
+.ul-binnasa-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.stat__2_2 {
+  margin-top: 15px;
+}
+@media (max-width: 1280px) {
+  .course-stats-in-numbers {
+    width: 972px;
+  }
+  .main-container-auditory {
+    width: 685px;
+  }
+  .right-sidebar-auditory {
+    width: 244px;
+  }
+  .courses-left-diagram {
+    width: 290px;
+  }
+  .courses-middle-diagram {
+    width: 366px;
+  }
+  .courses-right-diagram {
+    width: 239px;
+  }
+  .course-student-locations {
+    width: 968px;
+  }
+  .ul-binnasa-div {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .courses-info-div {
+    width: 192px;
+  }
+  .right-side-of-courses-stats--info-div {
+    margin-left: 36px;
+  }
+  .left-side-of-courses-stats--info-div p {
+    font-size: 16px;
+  }
+  .left-side-of-courses-stats--info-div span {
+    font-size: 14px;
+  }
+  .info-div {
+    margin-left: 10px;
+  }
+  .right-side-of-courses-stats--info-div-first,
+  .right-side-of-courses-stats--info-div-second,
+  .right-side-of-courses-stats--info-div-third,
+  .right-side-of-courses-stats--info-div-fourth {
+    padding: 9px;
+  }
+  .right-side-of-courses-stats--info-div {
+    margin-left: 27px;
+  }
+  .main-container-auditory {
+    width: 595px;
+  }
+  .right-sidebar-auditory {
+    margin-left: 14px;
+    width: 207px;
+  }
+  .stat_2_2_inside-div {
+    width: 135px;
+  }
+  .ul-binnasa-div {
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 10px;
+  }
+  .bigger-info-div {
+    width: 207px;
+  }
+  .courses-left-diagram {
+    width: 255px;
+  }
+  .stats-main-container {
+    padding: 30px 30px 54px 15px;
+  }
+  .rating-mui-div .MuiRating-root {
+    font-size: 1rem;
+  }
+  .courses-middle-diagram {
+    width: 300px;
+    padding: 15px;
+  }
+  .recharts-responsive-container {
+    width: 112%;
+  }
+  .courses-middle-diagram {
+    margin-left: 15px;
+  }
+  .courses-right-diagram {
+    margin-left: 15px;
+    width: 230px;
+  }
+  .progress-bar-svg div svg {
+    width: 185px;
+  }
+  .indicator {
+    font-size: 26px;
+  }
+  .ul-gender {
+    margin-top: -40px;
+  }
+  .course-student-locations-div {
+    width: 84%;
+  }
+}
+@media (max-width: 768px) {
+  .course-stats-in-numbers {
+    width: 748px;
+  }
+  .left-side-of-courses-stats--info-div p {
+    font-size: 17px;
+  }
+  .left-side-of-courses-stats--info-div span {
+    font-size: 12px;
+  }
+  .right-side-of-courses-stats--info-div {
+    margin-left: 38px;
+  }
+  .right-side-of-courses-stats--info-div-first,
+  .right-side-of-courses-stats--info-div-second,
+  .right-side-of-courses-stats--info-div-third,
+  .right-side-of-courses-stats--info-div-fourth {
+    padding: 8px;
+  }
+  .right-side-of-courses-stats--info-div-first img,
+  .right-side-of-courses-stats--info-div-second img,
+  .right-side-of-courses-stats--info-div-third img,
+  .right-side-of-courses-stats--info-div-fourth img {
+    width: 18px;
+    height: 18px;
+  }
+  .bigger-info-div {
+    margin-left: 20px;
+  }
+  .stats-main-container {
+    padding: 30px 30px 54px 12px;
+  }
+  .courses-info-div {
+    padding: 18px 12px;
+  }
+  .right-side-of-info-div-fourth-divest {
+    margin-left: 25px;
+  }
+  .main-container-auditory {
+    width: 510px;
+  }
+  .right-sidebar-auditory p {
+    font-size: 13px;
+  }
+  .right-sidebar-auditory {
+    width: 204px;
+  }
+  .stat__2_2 {
+    width: 186px;
+  }
+  .rc-progress-circle {
+    width: 140px;
+  }
+  .courses-left-diagram {
+    padding: 15px 15px;
+    width: 205px;
+  }
+  .courses-left-with-span-and-select-div span,
+  .courses-left-with-span-and-select-div select {
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+  }
+  .MuiRating-root {
+    font-size: 1rem;
+  }
+  .last-child-of-mui-rating-div {
+    margin-top: 30px;
+  }
+  .first-child-select,
+  .second-child-select {
+    font-size: 11px;
+  }
+  .courses-middle-diagram {
+    width: 284px;
+  }
+  .courses-right-diagram {
+    width: 202px;
+    margin-left: 20px;
+  }
+  .courses-right-diagram p {
+    font-size: 12px;
+  }
+  .RCP {
+    width: 175px;
+  }
+  .indicator {
+    font-size: 23px;
+  }
+  .ul-gender {
+    width: 171px;
+  }
+  .course-student-locations-div {
+    width: 755px;
+  }
+  .recharts-responsive-container {
+    width: 110%;
+  }
+}
+@media (max-width: 540px) {
+  .course-stats-in-numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    grid-gap: 30px;
+    padding-left: 20px;
+  }
+  .courses-info-div,
+  .info-div,
+  .bigger-info-div {
+    width: 230px;
+    margin-left: 0px;
+  }
+  .section-content-for-teachers {
+    width: 540px;
+  }
+  .course-teaching-auditory {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+  }
+  .main-container-auditory {
+    width: 490px;
+  }
+  .right-sidebar-auditory {
+    margin-left: 0px;
+    width: 490px;
+    margin-top: 30px;
+  }
+  .stat__2_2 {
+    display: flex;
+    align-items: center;
+    height: 68%;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .right-sidebar-auditory p {
+    font-size: 16px;
+  }
+  .stat__2_2 .stat_2_2_inside-div {
+    width: 215px;
+    height: 205px;
+  }
+  .rc-progress-circle {
+    width: 175px;
+  }
+  .ul-binnasa-div .li_2,
+  .li_4,
+  .li_6 {
+    margin-left: 20px;
+  }
+  .course-stats-in-diagrams {
+    width: 490px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .courses-left-diagram {
+    width: 100%;
+  }
+  .courses-left-with-span-and-select-div span,
+  .courses-left-with-span-and-select-div select {
+    font-size: 14px;
+  }
+  .MuiRating-root .MuiRating-label {
+    font-size: 1.5rem;
+  }
+  .rating-mui-div-inside-span {
+    font-size: 1.4rem;
+  }
+  .rating-span-totally-score-title {
+    font-size: 1.2rem;
+  }
+  .courses-middle-diagram {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .first-child-select,
+  .second-child-select {
+    font-size: 14px;
+  }
+  .courses-right-diagram {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .ul-gender {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .courses-right-diagram p {
+    font-size: 15px;
+  }
+  .course-student-locations,
+  .course-student-locations-div {
+    width: 490px;
+  }
+  .course-student-locations {
+    margin-left: 20px;
+  }
+  .course-location-div-countries {
+    grid-template-columns: 1fr 1fr;
+  }
+  .course-student-locations-div {
+    height: 591px;
+  }
+}
+@media (max-width: 480px) {
+  .course-stats-in-numbers {
+    grid-gap: 10px;
+  }
+  .courses-info-div,
+  .info-div,
+  .bigger-info-div {
+    width: 180px;
+  }
+  .course-stats-in-numbers {
+    width: 475px;
+  }
+  .course-teaching-auditory {
+    width: 456px;
+  }
+  .main-container-auditory,
+  .right-sidebar-auditory {
+    width: 426px;
+  }
+  .right-sidebar-auditory {
+    height: 335px;
+  }
+  .stat__2_2 {
+    flex-direction: column;
+    height: 90%;
+  }
+  .ul-binnasa-div {
+    width: 80%;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+  }
+  .ul-binnasa-div .li_2,
+  .li_4,
+  .li_6 {
+    margin-left: 0px;
+  }
+  .course-stats-in-diagrams {
+    width: 480px;
+    margin-left: 15px;
+  }
+  .courses-left-diagram,
+  .courses-middle-diagram,
+  .courses-right-diagram {
+    width: 87%;
+  }
+  .course-student-locations {
+    margin-left: 10px;
+    width: 480px;
+  }
+  .course-student-locations-div {
+    width: 90%;
+  }
+}
+@media (max-width: 411px) {
+  .course-stats-in-numbers {
+    width: 400px;
+  }
+  .stats-main-container {
+    margin-left: -5px;
+  }
+  .course-teaching-auditory {
+    width: 405px;
+  }
+  .main-container-auditory,
+  .right-sidebar-auditory {
+    width: 378px;
+  }
+  .course-stats-in-diagrams {
+    width: 434px;
+  }
+  .course-student-locations {
+    width: 426px;
+  }
+  .course-location-div-countries {
+    grid-template-columns: 1fr;
+  }
+  .course-student-locations-div {
+    height: auto;
+  }
+}
+@media (max-width: 375px) {
+  .stats-main-container {
+    padding: 30px 0px 54px 0px;
+  }
+  .course-stats-in-numbers {
+    width: 375px;
+    padding-left: 9px;
+  }
+  .courses-info-div {
+    width: 175px;
+  }
+  .course-teaching-auditory {
+    width: 375px;
+    padding-left: 8px;
+  }
+  .main-container-auditory,
+  .right-sidebar-auditory {
+    width: 360px;
+  }
+  .course-stats-in-diagrams {
+    width: 408px;
+  }
+  .course-student-locations {
+    width: 403px;
+  }
+}

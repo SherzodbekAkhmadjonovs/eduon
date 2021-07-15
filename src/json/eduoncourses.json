@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  },
+  {
+    "id": 2,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  },
+  {
+    "id": 3,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  },
+  {
+    "id": 4,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  },
+  {
+    "id": 5,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  },
+  {
+    "id": 6,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  },
+  {
+    "id": 7,
+    "img": "../images/courseimg.svg",
+    "title": "Blog yuritishni 0 dan o’rganamiz. Amaliy...",
+    "rating": "4.9",
+    "ratingnum": "(1.483)",
+    "sold": "234",
+    "comments": "12",
+    "price": "1,000,000"
+  }
+]

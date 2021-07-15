@@ -1,0 +1,338 @@
+.economics-main-container {
+  padding: 30px 30px 78px 30px;
+}
+.top-payment-card-wrapper {
+  width: 888px;
+  display: flex;
+}
+.left-card-wrapper {
+  width: 331px;
+  height: 201px;
+  background: #e7f0ff;
+  border-radius: 24px;
+  padding: 24px;
+}
+.top-teachers-card-name-for-using span {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.54;
+}
+.middle-teachers-card-number-for-using {
+  margin-top: 40px;
+}
+.middle-teachers-card-number-for-using span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  color: #111111;
+  font-family: Gilroy-Medium;
+}
+#middle-teachers-card-number-for-using-inside-span-in-span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+  color: #111111;
+}
+.info-about-teachers-card-owner {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-info-about-teachers-card-owner,
+.right-info-about-teachers-card-owner {
+  display: flex;
+  flex-direction: column;
+}
+.card-owner-div,
+.card-working-date-div {
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(17, 17, 17, 0.72);
+  font-family: Gilroy-Medium;
+}
+.owner-of-card-name,
+.card-working-date {
+  margin-top: 4px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+}
+.right-card-wrapper {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.right-card-criteria-cards {
+  display: flex;
+}
+.right-card-criteria-info-sections {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.right-card-criteria-info-sections p {
+  display: flex;
+  align-items: center;
+  color: #111111;
+  font-size: 16px;
+  font-family: Gilroy-Medium;
+}
+.right-card-criteria-info-sections p svg {
+  margin-right: 10px;
+}
+.cards-wrapper-div {
+  width: 236px;
+  height: 127px;
+  border: 2px solid rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  padding: 24px 39px 30px 24px;
+}
+.card-balance-div-in-teacher-content {
+  font-size: 16px;
+  width: 183px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.54;
+  font-family: Gilroy-Medium;
+}
+.cards-wrapper-div div {
+  margin-top: 18px;
+}
+.card-balance-in-numbers-indicator {
+  font-size: 26px;
+  line-height: 30px;
+  color: #111111;
+  font-family: GIlroy-Bold;
+}
+.card-balance-in-numbers-indicator span {
+  font-size: 16px;
+  color: #111111;
+  opacity: 0.54;
+}
+.main-content-for-payment-methods {
+  width: 1035px;
+  margin-top: 36px;
+}
+.main-content-for-payment-methods h4 {
+  font-size: 18px;
+  color: rgba(17, 17, 17, 0.36);
+}
+.main-content-done-payments {
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  width: 1080px;
+  height: 72px;
+  margin-top: 12px;
+  padding: 24px 50px 24px 36px;
+  display: flex;
+  align-items: center;
+}
+.data-json-data-ism {
+  margin-left: 100px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.72;
+  width: 87px;
+  font-family: Gilroy-Medium;
+}
+.data-json-data-sana {
+  margin-left: 134px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.72;
+  font-family: Gilroy-Medium;
+  width: 173px;
+}
+.data-json-data-qiymat {
+  margin-left: 154px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.72;
+  width: 113px;
+  font-family: Gilroy-Medium;
+}
+.data-json-data-status {
+  margin-left: 125px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  opacity: 0.72;
+  width: 120px;
+  font-family: Gilroy-Medium;
+}
+.right-side-of-card-wrapper-div {
+  margin-left: 18px;
+}
+@media (max-width: 1280px) {
+  .data-json-data-ism {
+    margin-left: 42px;
+  }
+  .data-json-data-sana {
+    margin-left: 90px;
+  }
+  .data-json-data-qiymat {
+    margin-left: 116px;
+  }
+  .main-content-done-payments {
+    width: 957px;
+  }
+}
+@media (max-width: 1024px) {
+  .left-card-wrapper {
+    width: 296px;
+  }
+  .right-card-wrapper {
+    margin-left: 18px;
+  }
+  .cards-wrapper-div {
+    width: 230px;
+  }
+  .card-balance-in-numbers-indicator {
+    font-size: 24px;
+  }
+  .main-content-done-payments {
+    width: 792px;
+  }
+  .data-json-data-sana {
+    margin-left: 60px;
+  }
+  .data-json-data-qiymat {
+    margin-left: 88px;
+  }
+  .data-json-data-status {
+    margin-left: 102px;
+  }
+}
+@media (max-width: 768px) {
+  .left-card-wrapper {
+    padding: 20px;
+    width: 240px;
+  }
+  .middle-teachers-card-number-for-using span {
+    font-size: 13px;
+  }
+  #middle-teachers-card-number-for-using-inside-span-in-span {
+    font-size: 14px;
+  }
+  .cards-wrapper-div {
+    padding: 24px 39px 30px 12px;
+    width: 210px;
+  }
+  .right-side-of-card-wrapper-div {
+    margin-left: 10px;
+  }
+  .right-card-criteria-info-sections {
+    width: 400px;
+  }
+  .main-content-for-payment-methods {
+    width: 768px;
+  }
+  .main-content-done-payments {
+    width: 717px;
+  }
+  .data-json-data-ism {
+    margin-left: 47px;
+  }
+  .data-json-data-sana {
+    margin-left: 57px;
+  }
+  .data-json-data-qiymat {
+    margin-left: 48px;
+  }
+  .data-json-data-status {
+    margin-left: 82px;
+  }
+}
+@media (max-width: 540px) {
+  .top-payment-card-wrapper {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-card-wrapper {
+    width: 100%;
+  }
+  .top-teachers-card-name-for-using span {
+    font-size: 20px;
+  }
+  .middle-teachers-card-number-for-using span,
+  .middle-teachers-card-number-for-using
+    #middle-teachers-card-number-for-using-inside-span-in-span {
+    font-size: 28px;
+  }
+  .right-card-wrapper {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .cards-wrapper-div {
+    width: 240px;
+  }
+  .right-card-criteria-info-sections {
+    width: 490px;
+  }
+}
+@media (max-width: 480px) {
+  .top-payment-card-wrapper {
+    width: 415px;
+  }
+  .middle-teachers-card-number-for-using span {
+    font-size: 26px;
+  }
+  .cards-wrapper-div {
+    width: 202px;
+  }
+  .right-card-criteria-info-sections {
+    width: 430px;
+  }
+}
+@media (max-width: 411px) {
+  .top-payment-card-wrapper {
+    width: 365px;
+  }
+  .middle-teachers-card-number-for-using span {
+    font-size: 20px;
+  }
+  .cards-wrapper-div {
+    width: 176px;
+  }
+  .card-balance-div-in-teacher-content {
+    width: 162px;
+    font-size: 13px;
+  }
+  .card-balance-in-numbers-indicator {
+    font-size: 20px;
+    line-height: 0;
+  }
+  .right-card-criteria-info-sections {
+    width: 360px;
+  }
+}
+@media (max-width: 375px) {
+  .top-payment-card-wrapper {
+    width: 330px;
+  }
+  .middle-teachers-card-number-for-using span {
+    font-size: 19px;
+  }
+  .middle-teachers-card-number-for-using
+    span
+    #middle-teachers-card-number-for-using-inside-span-in-span {
+    font-size: 21px;
+  }
+  .cards-wrapper-div {
+    width: 161px;
+  }
+  .right-card-criteria-info-sections {
+    width: 347px;
+  }
+}

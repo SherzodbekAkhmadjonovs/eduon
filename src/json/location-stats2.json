@@ -1,0 +1,66 @@
+[
+  {
+    "cities": "Toshkent",
+    "percent": "82"
+  },
+  {
+    "cities": "Dushanbe",
+    "percent": "1"
+  },
+  {
+    "cities": "Nur-Sulton",
+    "percent": "4"
+  },
+  {
+    "cities": "Moskva",
+    "percent": "5"
+  },
+  {
+    "cities": "Seul",
+    "percent": "2"
+  },
+  {
+    "cities": "Kair",
+    "percent": "2"
+  },
+  {
+    "cities": "Doxa",
+    "percent": "3"
+  },
+  {
+    "cities": "Anqara",
+    "percent": "2"
+  },
+  {
+    "cities": "Berlin",
+    "percent": "2"
+  },
+  {
+    "cities": "London",
+    "percent": "3"
+  },
+  {
+    "cities": "Parij",
+    "percent": "2"
+  },
+  {
+    "cities": "Vashington",
+    "percent": "3"
+  },
+  {
+    "cities": "Singapur",
+    "percent": "1"
+  },
+  {
+    "cities": "Kuala-Lumpur",
+    "percent": "0.5"
+  },
+  {
+    "cities": "Tokio",
+    "percent": "0.2"
+  },
+  {
+    "cities": "Kiyev",
+    "percent": "2"
+  }
+]
